@@ -1,32 +1,41 @@
-STUDENT_NAMES = [
-  "Adele",
-  "Beyoncé",
-  "Cardi B",
-  "Lady Gaga",
-  "Nicki Minaj",
-  "Rihanna"
-]
+student_names = []
+  student_names[0]="Adele"
+  student_names[1]="Beyoncé"
+  student_names[2]="Cardi B"
+  student_names[3]="Lady Gaga"
+  student_names[4]="Nicki Minaj"
+  student_names[5]="Rihanna"
 
-def first_student_by_index
+
+def first_student_by_index(student_names)
   # Write a solution that returns the first student in the array student_names
+  puts "#{student_names[0]}"
 end
-
-def fourth_student_by_index
+first_student_by_index(student_names)
+def fourth_student_by_index(student_names)
   # Write a solution that returns the first student in the array student_names
+  puts "#{student_names[3]}"
 end
-
-def last_student_by_index
+fourth_student_by_index(student_names)
+def last_student_by_index(student_names)
   # Write a solution that returns the first student in the array student_names
+  puts "#{student_names[5]}"
 end
-
-def first_student_by_method
+last_student_by_index(student_names)
+def first_student_by_method(student_names)
   # Write a solution that returns the first student using the built in .first method
+  puts "#{student_names.first}"
 end
-
-def last_student_by_method
+first_student_by_method(student_names)
+def last_student_by_method(student_names)
   # Write a solution that returns the first student using the built in .last method
+  puts "#{student_names.last}"
 end
-
-def first_second_and_third_students
+last_student_by_method(student_names)
+def first_second_and_third_students(student_names)
   # Write a solution that returns the first, second and third students
+  puts "#{student_names[0]}"
+  puts "#{student_names[1]}"
+  puts "#{student_names[2]}"
 end
+first_second_and_third_students(student_names)
